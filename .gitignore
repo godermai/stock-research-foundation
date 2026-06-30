@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Data & databases (local-only, do not push)
+data/
+db/
+logs/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Windsurf context
+.windsurf_context/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Third-party repo clones
+third_party/
